@@ -1,0 +1,258 @@
+
+.school-details .container{
+    margin: 1% 10%;
+   
+}
+
+
+.school-details .top{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    height:5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.school-details .top{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    height:5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.school-details .top .group{
+    float:right;
+    width:70%;
+    height: 15rem;
+    
+    margin-top: -14%;
+}
+.school-details .top .welcome{
+    float: left;
+    width: 30%;
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.school-details .bottom{
+    margin-top:3rem;
+}
+.school-details .bottom .left{
+    float: left;
+    width: 40%;
+    padding: 0;
+}
+
+.school-details .card{
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.school-details .card>img{
+    background-color: #000;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.school-details .text>img{
+    width:1rem;
+    height: 1rem;
+}
+.school-details .text{
+    width:100%;
+}
+.school-details .navbar{
+    width:100%;
+    height:4rem;
+    display:flex;
+    background-color: #092433;
+}
+.school-details .navbar>img{
+    height:40%;
+    padding: 1.5%;
+    float:left;
+    margin-left: 4rem;
+    
+}
+.school-details .navbar div{
+    float: right;
+    width: 50%;
+    margin-left: 55rem;
+    display:flex;
+    padding: 1%;
+}
+.school-details .navbar div>img{
+    height:100%;
+    
+}
+.school-details .pagination-bar {
+    display: flex;
+    justify-content: center;
+  }
+.school-details .detailsTable{
+    margin: auto;
+    padding:1rem 1rem;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    background-color: white;
+    border-radius: 2rem;
+}.school-details table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.school-details thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    color: rgb(255, 255, 255);
+    
+}
+.school-details table thead tr {
+    height: 60px;
+    background: #092433;
+}
+.school-details th{
+    font-weight: 500!important;
+    font-size: 14px;
+}
+.school-details .table100-head th {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: #fff;
+    line-height: 1.2;
+    
+}
+.school-details tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.school-details tbody tr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+    line-height: 1.2;
+    font-weight: unset;
+}
+.school-details table tbody tr {
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.school-details tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.school-details tbody tr:nth-child(even) {
+    background-color: #f3fbff;
+}
+.school-details .download-right{
+    float:right;
+}
+.school-details .download-button{
+    
+    border: none !important;
+    background-color: var(--button);
+    color:white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5rem;
+    margin: .9rem;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.school-details .search-input{
+    width: 9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 38px;
+    border-radius: .2rem;
+    border:#E1E1E1 thin solid !important;
+    font-size: 14px;
+    margin: 1rem;
+    padding: 0rem .5rem;
+}
+.school-details .css-1s2u09g-control, .school-details .css-1pahdxg-control {
+    border: none !important;
+    
+    border-radius: .3rem !important;
+    background:#fff !important;
+    width:11rem !important;
+    max-width: 11rem !important;
+    box-shadow: none !important;
+    margin: 1.1rem !important;
+    height: 38px !important;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:#E1E1E1 thin solid !important;
+    
+}
+.school-details .css-1hb7zxy-IndicatorsContainer {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.school-details .css-b62m3t-container {
+    /* margin-top: -0.7rem !important; */
+    border: none !important;
+    display: inline-block !important;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 58px!important;
+}
+.school-details .css-znssdr-MenuList,.css-26l3qy-menu {
+    background: #fff !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.school-details .css-qc6sy-singleValue {
+    
+    padding-left: .5rem !important;}
+
+
+    .school-details .footer{
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+        background-color: #092433;
+        color: white;
+    }
+    .school-details .footer i{
+        margin: .5rem;
+    }
+.school-details .column2,.school-details .column1,.school-details .column3,.school-details .column4,.school-details .column5,.school-details .column6,.school-details .column7{
+    max-width: 10rem;
+    text-align: center;
+    padding-left: 1rem;
+}
+.school-details .column6,.column7{
+    text-align: center;
+}
+.school-details .column0{
+    padding-left: 1rem;
+    width: .8rem;
+}

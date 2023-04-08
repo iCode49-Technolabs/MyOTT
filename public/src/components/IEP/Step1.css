@@ -1,0 +1,47 @@
+
+.step1{
+    font-size: 14px;
+  }
+  
+  .step1 .title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .step1 .sub-title{
+    font-size: 14px;
+    font-weight: 600;
+    color:#F05D46;
+    margin-bottom: -.5rem;
+  }
+  .step1 .grid-container{
+    display: grid;
+    grid-template-columns: 35% 40% 30%;
+    
+    padding: 10px;
+  }
+  .step1 .personal-information{
+    padding: 10px;
+  }
+  .step1 li{
+    margin-left: -.8rem;
+  }
+  .step1 .save-continue{
+    border: none !important;
+      background-color: #F05D46;
+      color:white;
+      width: 10rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .step1 .back{
+    font-size: 12px;
+      background-color: #ffffff;
+      color:rgb(0, 0, 0);
+      width: 10rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+      
+  }

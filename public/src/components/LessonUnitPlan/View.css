@@ -1,0 +1,119 @@
+
+.view .title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+.view{
+    font-size: 14px;
+    padding: .5rem;
+    
+}
+
+
+
+.view .text{
+    border-radius: .2rem;
+    
+    border: #E1E1E1 solid thin;
+    font-size: 12px;
+    height: 1.2rem;
+    width: 80%;
+    padding: .2rem .5rem;
+    
+
+}
+.view input{
+  background-color: white;
+}
+.view input:disabled{
+  background-color: rgb(252, 252, 252);
+}
+.view input::placeholder{
+    color:#A4A4A4;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.view .save-continue{
+    border: none !important;
+      background-color: #F05D46;
+      color:white;
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  
+  .view .back{
+    font-size: 12px;
+      background-color: #ffffff;
+      color:rgb(0, 0, 0);
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+      
+  }
+
+ 
+ .view .buttons{
+    display: flex;
+    justify-content: space-between;
+ }
+ .view .textbox{
+    display: flex;
+    align-items: center;
+ }
+ .view .textarea{
+  display: block;
+  
+}
+.view .grid-container{
+  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    
+  
+}
+
+ .view .question>p{
+    width: 15rem;
+ }
+
+
+ .view textarea{
+  width: 95%;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius:.3rem;
+  border: #E1E1E1 solid thin;
+  resize: none;
+  padding: 1rem;
+  font-size: 14px;
+}
+.view .grid-container textarea{
+  width: 90%;
+  
+}
+.view .datebox>div>p{
+  width: fit-content;
+  margin-right: 2rem;
+}
+.view .datebox>div>input{
+  border-radius: .2rem;
+    
+  border: #E1E1E1 solid thin;
+  font-size: 12px;
+  height: 1.2rem;
+  
+  padding: .2rem .5rem;
+}
+.view .datebox,.view .datebox>div{
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.footer__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: #092433;
+    height: 63px;
+    
+}
+
+.footer__main > svg{
+    fill: white;
+    cursor: pointer;
+}

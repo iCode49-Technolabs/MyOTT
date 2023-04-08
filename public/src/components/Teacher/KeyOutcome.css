@@ -1,0 +1,189 @@
+.keyoutcome {
+    border-radius: .5rem;
+    background-color: #F1FAFF;
+    padding: 1rem;
+    border:#E1E1E1 thin solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px !important;
+}
+.keyoutcome .k_title{
+    
+    font-weight: 600;
+
+}
+.keyoutcome input{
+    width: 93.5%;
+    border-radius: .2rem;
+    border: #E1E1E1 solid thin;
+    padding: .2rem .4rem;
+}
+.keyoutcome .support_need{
+    
+    float: left; 
+    width: 20%; 
+    margin-top: .2rem;
+}
+.keyoutcome .grid-container{
+    float: right;
+    width: 75%;
+    margin-top: -5.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    padding: 10px;
+}
+.keyoutcome .save{
+    float: right;
+    border: none !important;
+      background-color: #F05D46;
+      color:white;
+      width: 10rem;
+      height: 2rem;
+      margin: 0rem 2.5rem;
+      
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+.keyoutcome textarea{
+    width: 80%;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius:.3rem;
+    border: #E1E1E1 solid thin;
+    resize: none;
+    padding: 1rem;
+    font-size: 14px;
+}
+.keyoutcome .card{
+    background-color: #fff;
+    border: #E1E1E1 solid thin;
+    border-radius: .5rem;
+    padding:.1rem 1rem;
+    font-weight: 500;
+    font-size: 8px;
+    width: 8rem;
+    height: fit-content;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    
+}
+.keyoutcome .card-k_title{
+    font-weight: 600;
+    font-size: 12px;
+}
+.keyoutcome .card-sub-k_title{
+    
+    font-size: 10px;
+}
+
+
+
+
+.keyoutcome .css-1s2u09g-control, .keyoutcome .css-1pahdxg-control {
+    border: none !important;
+    
+    border-radius: .3rem !important;
+    background:#fff !important;
+    width:fit-content !important;
+    max-width: 10rem !important;
+    box-shadow: none !important;
+    margin: 0rem !important;
+    margin-right: 1rem !important;
+    height: max-content !important;
+    max-height: 10rem !important;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:#E1E1E1 thin solid !important;
+    
+}
+.keyoutcome .css-1hb7zxy-IndicatorsContainer {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.keyoutcome .css-b62m3t-container {
+    /* margin-top: -0.7rem !important; */
+    border: none !important;
+    display: inline-block !important;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 58px!important;
+}
+.keyoutcome .css-znssdr-MenuList,.css-26l3qy-menu {
+    background: #fff !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.keyoutcome input::placeholder{
+    font-size: 12px;
+}
+.keyoutcome textarea::placeholder{
+    font-size: 12px;
+}
+.keyoutcome .css-qc6sy-singleValue {
+    
+    padding-left: .5rem !important;}
+    .keyoutcome .select-placeholder-text {
+        color: #092433 !important;
+        padding: 0rem .1rem!important;
+        font-size: 12px;
+      }
+
+      .keyoutcome .arrow{
+        width:.5rem;
+        height: .5rem;
+        border-right: black 3px solid;
+        border-bottom: black 3px solid;
+        transform: rotateZ(225deg);
+        margin-top: .8rem;
+    }
+
+.keyoutcome .cards{
+    display: flex;
+    justify-content: space-between;
+    
+    overflow: auto;
+  white-space: nowrap;
+}
+.keyoutcome .cards::-webkit-scrollbar {
+    
+    height: .4rem;
+  }
+   
+  .keyoutcome .cards::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    
+  }
+   
+  .keyoutcome .cards::-webkit-scrollbar-thumb {
+    background-color: #092433;
+    border-radius: 1rem;
+    
+  }
+
+
+
+  .keyoutcome .teachers{
+    width:fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+   
+}
+.keyoutcome .teachers>label{
+    margin-right: 1rem;
+}
+.keyoutcome .teachers>label>input{
+    width: fit-content;
+}
+.keyoutcome .allTeachers>input{
+    width: fit-content;
+}

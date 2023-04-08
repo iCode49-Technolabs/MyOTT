@@ -1,0 +1,83 @@
+.recommended-adjustments {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(105, 179, 221, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+    
+    
+    
+}
+.recommended-adjustments .popup__box  svg {
+    float: right;
+    margin: .5rem 1rem;
+    
+    fill: rgb(248, 115, 115);
+    cursor: pointer;
+}
+.recommended-adjustments .popup__box {
+    position: relative;
+    
+    background: #FFFBF4;
+    border-radius: 10px;
+    
+    padding: 1rem;
+    max-width: 60%;
+    
+}
+
+
+.recommended-adjustments .rate-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    height: 20rem;
+    overflow-y: scroll !important;
+}
+
+
+
+.recommended-adjustments .rate-card{
+    background-color: #fff;
+    border: #E1E1E1 solid thin;
+    border-radius: .5rem;
+    padding:.1rem 1rem;
+    font-weight: 500;
+    font-size: 8px;
+    width: fit-content;
+    height:fit-content;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    
+}
+.recommended-adjustments .card-k_title{
+    font-weight: 600;
+    font-size: 12px;
+}
+.recommended-adjustments .card-sub-k_title{
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: 10px;
+}
+
+.recommended-adjustments .popup__box  svg {
+    float: right;
+    margin: .5rem 1rem;
+    width: 12px;
+    fill: rgb(248, 115, 115);
+    cursor: pointer;
+}
+.recommended-adjustments .popup__box .popup__box_message svg {
+    width: 16px;
+    height: 16px;
+    fill: rgb(240, 93, 70);
+}

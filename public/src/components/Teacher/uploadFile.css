@@ -1,0 +1,86 @@
+.fileUpload {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(112, 120, 126, 0.471);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+}
+
+.fileUpload .editdata__box {
+    position: relative;
+   display: block;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fileUpload .editdata__box  svg {
+    /* position: absolute;
+    top: 30px;
+    right: 30px; */
+    width: 12px;
+    fill: rgb(248, 115, 115);
+    cursor: pointer;
+    float: right;
+    padding: 1rem;
+}
+
+
+
+
+.fileUpload .editdata__box .editdata__box_main {
+    position: relative;
+    
+    gap: 40px;
+    height: fit-content;
+    margin: 1rem 1rem;
+    margin-top: 3rem;
+    
+}
+
+.fileUpload  .editdata__box .editdata__box_main ._1oqn {
+    all: unset;
+    color: white;
+    background-color: rgb(240, 93, 70);
+    height: 32px;
+    width: 100px;
+    font-size: 13px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+.fileUpload .editdata__box_main .editdata__box_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fileUpload .editdata__box_main label{
+    border:#E1E1E1 thin solid ;
+    display: flex;
+    padding: .1rem .5rem;
+    cursor: pointer;
+    border-radius: .2rem;
+    /* height: 38px; */
+    margin-bottom: 1rem;
+}
+
+.fileUpload .editdata__box_main label>p{
+    
+    margin: 0;
+  font-size: 12px;
+ 
+}
+input[type="file"] {
+    display: none;
+}

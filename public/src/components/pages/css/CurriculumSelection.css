@@ -1,0 +1,135 @@
+._1uir {
+    width: 100vw;
+    height: 100vh;
+    color: #092433;
+    background-color: white;
+}
+
+/* Logo div */
+._1uir ._0koz {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+._1uir ._0koz > img {
+    width: 124px;
+}
+
+._1uir ._0koz > span {
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Side decorative image */
+._1uir ._9wfz {
+    position: fixed;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+}
+
+/* Main container */
+._1uir .container {
+    padding: 150px 0px 0px 50px;
+}
+
+._1uir .container > h1 {
+    all: unset;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Dropdown and label container */
+._1uir ._7wje {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+._1uir ._7wje > span {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+._1uir ._7wje > div {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+._1uir ._7wje > div input {
+    padding: .5rem;
+    border-radius: .3rem;
+    border: 1px solid #E1E1E1;
+    font-size: 12px;
+    width:10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 18px;
+    outline: none;
+}
+
+._1uir ._7wje > div input:focus {
+    border: 1px solid #C7BCA1;
+}
+
+/* Add new category div */
+._7wje ._3rkt {
+    position: relative;
+}
+
+._7wje ._3rkt > button {
+    all: unset;
+    position: absolute;
+    right: -100px;
+    color: white;
+    background-color: #F05D46;
+    border-radius: 40px;
+    height: 31px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+._1uir ._7wje .curriculum {
+    display: flex;
+    align-items: center;
+    width: 176px;
+    height: 34px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+._7wje .subcategories {
+    position: relative;
+    height: 50px;
+}
+
+._7wje .subcategories > div {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 150px;
+    overflow: scroll;
+}
+
+._7wje .subcategories > div > span {
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    padding: 2px 6px;
+    border-radius: 20px;
+}

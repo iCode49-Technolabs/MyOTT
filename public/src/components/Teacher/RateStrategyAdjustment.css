@@ -1,0 +1,50 @@
+.teacher .rate-cards{
+    display: flex;
+    justify-content: space-between;
+    
+    overflow: auto;
+  white-space: nowrap;
+}
+.teacher .rate-cards::-webkit-scrollbar {
+    
+    height: .4rem;
+  }
+   
+  .teacher .rate-cards::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    
+  }
+   
+  .teacher .rate-cards::-webkit-scrollbar-thumb {
+    background-color: #092433;
+    border-radius: 1rem;
+    
+  }
+  .teacher .rate-card{
+    background-color: #fff;
+    border: #E1E1E1 solid thin;
+    border-radius: .5rem;
+    padding:.1rem 1rem;
+    font-weight: 500;
+    font-size: 8px;
+    width: 8.5rem;
+    height:fit-content;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    
+}
+.teacher .k_title{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.teacher .card-k_title{
+    font-weight: 600;
+    font-size: 12px;
+}
+.teacher .card-sub-k_title{
+  white-space: pre-wrap;
+  word-break: break-word;
+    font-size: 10px;
+}

@@ -1,0 +1,100 @@
+.successpopup__container {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(112, 120, 126, 0.471);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+}
+
+.successpopup__container .successpopup__box {
+    position: relative;
+    width: 16vw;
+    height: 20vh;
+    background-color: white;
+    border-radius: 10px;
+    overflow:visible ;
+}
+
+.successpopup__container .successpopup__box > svg {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 12px;
+    fill: rgb(248, 115, 115);
+    cursor: pointer;
+}
+
+.successpopup__box .successpopup__box_message  {
+    position: absolute;
+    top: -80px;
+    left: -40px;
+}
+
+.successpopup__box .successpopup__box_message > span {
+    height: 30px;
+    width: 30vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 5px;
+    font-size: 14px;
+    color: rgb(240, 93, 70);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.successpopup__box .successpopup__box_message svg {
+    width: 16px;
+    height: 16px;
+    fill: rgb(240, 93, 70);
+}
+
+.successpopup__container .successpopup__box .successpopup__box_main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.successpopup__box_main .successpopup__box_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+}
+
+.successpopup__box_main .successpopup__box_content input {
+    margin: 0px;
+}
+
+.successpopup__box_main .successpopup__box_content h4 {
+    all: unset;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.successpopup__box_main .successpopup__box_content .css-1s2u09g-control,
+.successpopup__box_main .successpopup__box_content .css-1pahdxg-control {
+    min-height: 34px;
+    height: 34px;
+}
+
+.successpopup__box_content .successpopup__box_switch {
+    padding-right: 120px;
+}
+
+.successpopup__box_main .userdetails__settings .settings__button {
+    margin-left: 0px;
+    
+}

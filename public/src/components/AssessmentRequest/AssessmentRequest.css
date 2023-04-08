@@ -1,0 +1,111 @@
+
+.assessment_request .container {
+	margin: 1% 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.assessment_request .nav-text{
+
+  display:inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+}
+.assessment_request .nav-text>div{
+  width: .3rem;
+  height: .3rem;
+  border-top: #092433 solid .1rem;
+  border-left: #092433 solid .1rem;
+  transform: rotateZ(-45deg);
+}
+.assessment_request .nav-text>p{
+  margin-top: -.2rem;
+  margin-left: .2rem;
+}
+.assessment_request .assessment_request-container {
+  
+  margin-bottom: 5rem;
+	background-color: white;
+  border-radius: .5rem;
+  padding:.2rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.assessment_request .assessment_request-container>p{
+  font-size: 20px;
+  font-weight: 600;
+  margin:-.2rem -1.5rem;
+  margin-bottom: 1rem;
+  padding:1rem 1.5rem;
+  border-radius: .5rem .5rem 0rem 0rem;
+  background-color: #FFE4AF;
+}
+.assessment_request .title{
+  font-weight: 700;
+font-size: 20px;
+line-height: 18px;
+color: #092433;
+}
+.assessment_request .sub-title{
+  font-size: 14px;
+  font-weight: 700;
+  color:#092433;
+  line-height: 18px;
+  
+}
+.assessment_request .checkbox{
+  margin: .2rem .4rem .4rem 0rem;
+  
+}
+.assessment_request label{
+  font-size: 14px;
+}
+.assessment_request .comment{
+  padding: .5rem 1rem;
+  background: #F1FAFF;
+border-radius: .8rem;
+margin-bottom: 1rem;
+padding: .5rem 1rem;
+}
+
+.assessment_request .line{
+  background-color: #09243337;
+  border:none;
+  height: .1rem;
+}
+.assessment_request .comment .para{
+  font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #8A8A8A;
+}
+.assessment_request .action-buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+.assessment_request .action-buttons button{
+  border: none !important;
+        
+        color:white;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 5rem;
+        margin-bottom: 2rem;
+        font-size: 13px;
+        margin-top: .3rem;
+        margin-left: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.assessment_request .action-buttons .yellow{
+  background-color:#ffae0b;
+    
+    border:solid thin #FCB730 ;
+}
+.assessment_request .action-buttons .blue{
+  background-color:#2492d1;
+    
+    border:solid thin #69B3DD ;
+}
+.assessment_request .action-buttons .orange{
+  background-color:#ed4228;
+    
+    border:solid thin #F05D46 ;
+}

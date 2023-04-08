@@ -1,0 +1,203 @@
+
+.view .title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+.view{
+    font-size: 14px;
+    padding: .5rem;
+    
+}
+
+.view .teachers{
+    width:max-content;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.view .teachers>label{
+  margin-right: 2rem;
+}
+.view .checkbox{
+    margin: .2rem .4rem .4rem 0rem;
+    
+}
+.view .text{
+    border-radius: .2rem;
+    
+    border: #E1E1E1 solid thin;
+    font-size: 12px;
+    height: 1.2rem;
+    width: 100%;
+    padding: .2rem .5rem;
+    
+
+}
+.view input{
+  background-color: white;
+}
+.view input:disabled{
+  background-color: rgb(252, 252, 252);
+}
+.view input::placeholder{
+    color:#A4A4A4;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.view .save-continue{
+    border: none !important;
+      background-color: #F05D46;
+      color:white;
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .view .publish{
+    border: none !important;
+      background-color: #69B3DD;
+      color:white;
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .view .back{
+    font-size: 12px;
+      background-color: #ffffff;
+      color:rgb(0, 0, 0);
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+      
+  }
+ .view .review{
+    display: flex;
+    align-items: center;
+   
+    height: 2rem;
+ }
+ .view .review>p{
+  width: 18.6rem;
+    max-width: 18.6rem;
+ }
+ .view .buttons{
+    display: flex;
+    justify-content: space-between;
+ }
+ .view .question{
+    display: flex;
+    align-items: center;
+ }
+ .view .question>p{
+    width: 20rem;
+ }
+ .view .review .range{
+  border-radius: .2rem;
+   float: left;
+  border: #E1E1E1 solid thin;
+  font-size: 12px;
+  height: 1.2rem;
+  margin-left: -5rem;
+  padding: .2rem .5rem;
+  background-color:#69B3DD;
+  
+ }
+
+
+.view table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.view thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  color: rgb(255, 255, 255);
+  
+}
+.view table thead tr {
+  height: 60px;
+  background: #092433;
+}
+.view th{
+  font-weight: 500!important;
+  font-size: 14px;
+}
+.view .table100-head th {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  color: #fff;
+  line-height: 1.2;
+  
+}
+.view tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.view tbody tr {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: gray;
+  line-height: 1.2;
+  font-weight: unset;
+}
+.view table tbody tr {
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.view tbody tr:nth-child(even) {
+  background-color: #f3fbff;
+}
+.view .column2,.view .column1,.view .column3,.view .column4,.view .column5,.view .column6,.view .column7{
+  max-width: 10rem;
+  text-align: center;
+  padding-left: 1rem;
+}
+.view .column6,.column7{
+  text-align: center;
+}
+.view .column0{
+  padding: 1rem;
+  width: 1rem;
+  
+}
+
+.view .search-input{
+  width: 9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 38px;
+  border-radius: .2rem;
+  border:#E1E1E1 thin solid !important;
+  font-size: 14px;
+  margin: 1rem;
+  padding: 0rem .5rem;
+}
+
+.view .schools{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.view .schools>label{
+  margin-right: 1rem;
+}

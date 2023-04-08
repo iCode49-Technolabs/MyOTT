@@ -1,0 +1,244 @@
+
+.learning-coordinator .container{
+    margin: 1% 10%;
+    
+}
+.learning-coordinator .top{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    height:fit-content;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.learning-coordinator .top .group{
+    float:right;
+    width:70%;
+    height: 15rem;
+    
+    margin-top: -14%;
+}
+.learning-coordinator .top .welcome{
+    float: left;
+    width: 30%;
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.learning-coordinator .bottom{
+    margin-top:3rem;
+    
+}
+.learning-coordinator .bottom .left{
+    float: left;
+    width: 35%;
+    padding: 0;
+    
+}
+.learning-coordinator .bottom .right{
+    float: right;
+    width: 63%;
+    height: 30rem;
+   margin-bottom:2rem;
+    
+}
+.learning-coordinator .bottom .right .graph{
+    
+    
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    height: 20rem;
+}
+.learning-coordinator .bottom .right .quick-report{
+    
+    
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.learning-coordinator .card{
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    height: min-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.learning-coordinator .card>img{
+    background-color: #000;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1.5rem;
+    margin: .5rem;
+    border-radius: 1rem;
+}
+.learning-coordinator .text>img{
+    width:.6rem;
+    height: .6rem;
+}
+.learning-coordinator .text{
+    width:100%;
+}
+.learning-coordinator .navbar{
+    width:100%;
+    height:4rem;
+    display:flex;
+    background-color: #092433;
+}
+.learning-coordinator .navbar>img{
+    height:40%;
+    padding: 1.5%;
+    float:left;
+    margin-left: 4rem;
+    
+}
+.learning-coordinator .navbar div{
+    float: right;
+    width: 50%;
+    margin-left: 55rem;
+    display:flex;
+    padding: 1%;
+}
+.learning-coordinator .navbar div>img{
+    height:100%;
+    
+}
+.learning-coordinator .css-319lph-ValueContainer {
+    background-color:  #fff;
+    
+    border:none;
+    font-size: 14px;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2x 0px !important;
+    /* color:#092433 !important; */
+    
+}
+.learning-coordinator .select-placeholder-text {
+    color: #092433 !important;
+    padding: 0rem .5rem!important;
+  }
+.learning-coordinator input{
+    padding: 0rem .5rem!important;
+}
+.learning-coordinator .css-1s2u09g-control,.learning-coordinator  .css-1pahdxg-control {
+    border: none !important;
+    border-radius: .3rem !important;
+    background:#fff !important;
+    width:fit-content !important;
+    max-width: 15rem !important;
+    box-shadow: none !important;
+    margin: .5rem !important;
+    height: auto;
+    max-height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:#E1E1E1 thin solid !important;
+    
+}
+.learning-coordinator .css-1hb7zxy-IndicatorsContainer {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.learning-coordinator .css-b62m3t-container {
+    /* margin-top: -0.7rem !important; */
+    border: none !important;
+    display: inline-block !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.learning-coordinator .css-znssdr-MenuList,.css-26l3qy-menu {
+    background: #fff !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+/* .learning-coordinator .css-1pndypt-Input{
+    margin: 0px!important;
+} */
+
+.learning-coordinator .css-qc6sy-singleValue {
+    
+    padding-left: .5rem !important;}
+
+
+.learning-coordinator .report-submit{
+        float: right;
+        margin-right: 3rem;
+        border: none !important;
+        background-color: #F05D46;
+        color:white;
+        width: 10rem;
+        height: 2rem;
+        border-radius: 5rem;
+        margin-bottom: 2rem;
+        font-size: 13px;
+        margin-top: .3rem;
+        font-family: Arial, Helvetica, sans-serif;
+    
+}
+.learning-coordinator .quick-report p{
+    margin: 1rem;
+    color: #092433;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.learning-coordinator .initials{
+    float: left;
+    width:30%;
+    height: 150%;
+    margin-top: -2.2%;
+    border-radius: 100%;
+    background-color: #092433;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    line-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.learning-coordinator .top-initial{
+    
+    padding: 6%;
+    float:left;
+    margin-left: -4rem;
+    
+    width:35%;
+    height: 70%;
+    margin-top: -2.5%;
+    border-radius: 100%;
+    background-color: #ffffff;
+    border: #fff 2px solid;
+    color:#092433;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.learning-coordinator .footer{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    background-color: #092433;
+    color: white;
+}
+.learning-coordinator .footer i{
+    margin: .5rem;
+    
+}

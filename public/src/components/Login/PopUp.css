@@ -1,0 +1,61 @@
+.login .popup__container {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(112, 120, 126, 0.471);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+}
+.login .popup__box  svg {
+    float: right;
+    margin: .5rem 1rem;
+    width: 12px;
+    fill: rgb(248, 115, 115);
+    cursor: pointer;
+}
+.login .popup__container .popup__box {
+    position: relative;
+    
+    background-color: white;
+    border-radius: 10px;
+    overflow:visible ;
+}
+
+.login .popup__box .inputbox input{
+    margin: 1rem;
+}
+
+
+.login .popup__box .popup__box_message svg {
+    width: 16px;
+    height: 16px;
+    fill: rgb(240, 93, 70);
+}
+
+.login .popup__container .popup__box .popup__box_main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    margin-top: 40px;
+    
+}
+
+
+
+.login .userdetails__settings{
+    display: flex;
+    justify-content: center;
+}
+
+.login .settings__button:hover{
+    background-color:#ef452b;
+    
+    border:solid thin #F05D46 ;
+}

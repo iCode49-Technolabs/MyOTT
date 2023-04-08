@@ -1,0 +1,64 @@
+
+.organiseformalassessment .container {
+	margin: 1% 10%;
+}
+.organiseformalassessment .nav-text{
+
+  display:inline-flex;
+  font-size: 12px;
+  font-weight: 600;
+}
+.organiseformalassessment .nav-text>div{
+  width: .3rem;
+  height: .3rem;
+  border-top: #092433 solid .1rem;
+  border-left: #092433 solid .1rem;
+  transform: rotateZ(-45deg);
+}
+.organiseformalassessment .nav-text>p{
+  margin-top: -.2rem;
+  margin-left: .2rem;
+}
+.organiseformalassessment .organiseformalassessment-container {
+  
+  margin-bottom: 5rem;
+	background-color: white;
+  border-radius: .5rem;
+  padding:.2rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.organiseformalassessment .organiseformalassessment-container>p{
+  font-size: 20px;
+  font-weight: 600;
+  margin:-.2rem -1.5rem;
+  margin-bottom: 1rem;
+  padding:1rem 1.5rem;
+  border-radius: .5rem .5rem 0rem 0rem;
+  background-color: #FFE4AF;
+}
+.organiseformalassessment .inputData input{
+border: 1px solid #E1E1E1;
+border-radius: 8px;
+margin-left: 30px;
+padding-left: 30px;
+width: 370px;
+height: 36px;
+}
+.organiseformalassessment .chechInput input{
+  margin-left: 50px;
+  margin-top: 10px;
+font-size: 12px;
+}
+.organiseformalassessment .chechInput label{
+  margin-left: 10px;
+  font-size: 12px;
+}
+.organiseformalassessment .inputData p{
+  font-size: 14px;
+}
+.organiseformalassessment input::placeholder{
+  margin-left: 50px;
+  color: #A4A4A4;
+  font-size: 12px;
+}

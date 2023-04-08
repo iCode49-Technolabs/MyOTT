@@ -1,0 +1,75 @@
+.assesssment_request .popup__container {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(112, 120, 126, 0.471);
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+}
+.assesssment_request .popup__box  svg {
+    float: right;
+    margin: .5rem 1rem;
+    width: 12px;
+    fill: rgb(248, 115, 115);
+    cursor: pointer;
+}
+.assesssment_request .popup__container .popup__box {
+    position: relative;
+    width: 75%;
+    background-color: white;
+    border-radius: 10px;
+    overflow:visible ;
+}
+
+.assesssment_request .popup__box .inputbox input{
+    margin: 1rem;
+}
+
+
+.assesssment_request .popup__box .popup__box_message svg {
+    width: 16px;
+    height: 16px;
+    fill: rgb(240, 93, 70);
+}
+
+.assesssment_request .popup__container .popup__box .popup__box_main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    margin-top: 40px;
+    
+}
+
+
+
+.assesssment_request .popup__box .comment-container{
+    width: 90%;
+    margin: 2rem;
+    margin-top: .5rem;
+    height: 50vh;
+    overflow-y: scroll;
+    padding-right: .5rem;
+}
+.assesssment_request .popup__box .comment-container::-webkit-scrollbar {
+    margin-left: 1rem;
+    width: .2rem;
+    height: .4rem;
+  }
+   
+  .assesssment_request   .popup__box .comment-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    
+  }
+   
+  .assesssment_request  .popup__box .comment-container::-webkit-scrollbar-thumb {
+    background-color: #092433;
+    border-radius: 1rem;
+    
+  }

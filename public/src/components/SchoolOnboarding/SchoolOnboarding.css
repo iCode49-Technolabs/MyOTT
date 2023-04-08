@@ -1,0 +1,325 @@
+:root {
+  --input: #F3F8FF;
+  --white: #ffffff;
+  --button: #F05D46;
+}
+.schoolOnboarding  .content{
+  width:100vw;
+  height:100vh;
+  background-color: #ffffff;
+  overflow: hidden;
+  
+}
+.schoolOnboarding  .left{
+  width: 30%; 
+  float:left;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  
+}
+.schoolOnboarding .left img{
+  width: 6rem;
+}
+.schoolOnboarding .tagline{
+  font-style: italic;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.schoolOnboarding .middle{
+  margin-top: 5rem;
+line-height: 2rem;
+font-weight: 700;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.schoolOnboarding .line{
+  margin-top: -1rem;
+  float: left;
+  width: 2rem;
+  height: 0.3rem;
+  border: none;
+  background-color:#69B3DD;
+  border-radius: 50em;
+}
+.schoolOnboarding .bottom{
+  margin-top: 5rem;
+}
+.schoolOnboarding .inputbox{
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+.schoolOnboarding input{
+  border: none;
+  background-color:var(--input);
+  margin-bottom:.5rem ;
+  padding: .5rem !important;
+  border-radius: .3rem;
+  font-size: 12px;
+  width:10rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 18px;
+}
+.schoolOnboarding .react-tel-input{
+  width:11rem !important;
+}
+.schoolOnboarding .react-tel-input .form-control {
+  position: relative;
+  font-size: 12px;
+  letter-spacing: .01rem;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 48px !important;
+  
+  border: none;
+  background-color:var(--input);
+  border-radius: .3rem;
+  line-height:normal;
+  min-height: auto !important;
+  height: 38px !important;
+  width:11rem !important;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.schoolOnboarding .css-319lph-ValueContainer {
+  background-color:  var(--input);
+  border:none;
+  font-size: 12px;
+  border-radius: .3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px 0px;
+}
+.schoolOnboarding .css-1s2u09g-control, .schoolOnboarding .css-1pahdxg-control{
+  border: none !important;
+  border-radius: .3rem !important;
+  background:var(--input) !important;
+  width:11rem !important;
+  box-shadow: none !important;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.schoolOnboarding .css-1hb7zxy-IndicatorsContainer {
+  background-color: var(--input) !important;
+  border: none !important;
+  border-radius: .3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.schoolOnboarding .css-b62m3t-container {
+  /* margin-top: -0.7rem !important; */
+  border: none !important;
+  display: inline-block !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.schoolOnboarding .css-znssdr-MenuList,.schoolOnboarding .css-26l3qy-menu {
+  background: var(--input) !important;
+  font-size: 12px !important;
+  border: none !important;
+  border-radius: .3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  width:10rem;
+
+}
+.schoolOnboarding .css-9gakcf-option{
+  background-color: var(--input) !important;
+  color: black !important;
+  
+}
+.schoolOnboarding .css-6j8wv5-Input {
+  margin: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+.schoolOnboarding .react-tel-input{
+  display: inline-block;
+  
+  
+}
+.schoolOnboarding .css-qc6sy-singleValue {
+  padding-left: .5rem;}
+.schoolOnboarding .react-tel-input .flag-dropdown {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  background-color:var(--input);
+  border: none;
+  border-radius: .3rem;
+  
+}
+.schoolOnboarding .react-tel-input .country-list {
+  outline: none;
+  font-size: 12px;
+  z-index: 1;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  margin: 10px 0 10px -1px;
+  box-shadow: 1px 2px 10px rgb(0 0 0 / 35%);
+  background-color: var(--input);
+  width:10rem;
+  max-height: 200px;
+  overflow-y: scroll;
+  border-radius: .3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.schoolOnboarding .left-submit{
+  border: none !important;
+  background-color: var(--button);
+  color:white;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.schoolOnboarding .right{
+  width: 50%; 
+  float:right;
+  
+}
+.schoolOnboarding .right img{
+  height:100vh;
+}
+
+@media only screen and (max-width:720px){
+  
+  .schoolOnboarding .left {
+      width: 100vw; 
+      display:block;
+      justify-content: center;
+      
+  }
+  .schoolOnboarding .right{
+      display: none;
+  }
+}
+@media only screen and (max-height:700px)   {
+  .schoolOnboarding .content{
+      height: 100%;
+  }
+  .schoolOnboarding .middle{
+      margin-top: 2rem;
+      line-height: 1.5rem;
+      font-size: 18px;
+  }
+  .schoolOnboarding .bottom{
+      margin-top: 2rem;
+  }
+  .schoolOnboarding .right img{
+      height:auto;
+  }
+}
+@media only screen and (max-height:1368px) and (max-width:912px)  {
+  .schoolOnboarding .content{
+      height: 100%;
+  }
+  .schoolOnboarding .middle{
+      margin-top: 2rem;
+      line-height: 1.5rem;
+      font-size: 18px;
+  }
+  .schoolOnboarding .bottom{
+      margin-top: 2rem;
+  }
+  .schoolOnboarding .right img{
+      height:auto;
+  }
+}
+
+
+.schoolOnboarding label {
+width: 10%;
+/* Positions the label text beside the input */
+text-align: left;
+}
+
+.schoolOnboarding label+input,label+.react-tel-input,label+.css-b62m3t-container {
+width: 30%;
+/* Large margin-right to force the next element to the new-line
+         and margin-left to create a gutter between the label and input */
+/* margin: 0 2% .5rem 4%; */
+}
+.schoolOnboarding .required {
+  color: red;
+}
+.schoolOnboarding   .inputbox_main {
+  display: flex;
+  width: 70vw;
+}
+
+.schoolOnboarding   .inputbox_main > div {
+  flex: 4;
+  padding-top: 30px;
+}
+
+.schoolOnboarding   .inputbox_main > div:first-of-type {
+  flex: 2!important;
+}
+
+.schoolOnboarding  .inputbox_main .main__input {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 5px 0px;
+  padding: .2rem 0px !important;
+}
+
+.schoolOnboarding  .inputbox_main .main__input > label {
+  width: 8vw !important;
+  font-weight: 500 !important;
+  font-size: 12px;
+  color: rgb(37, 35, 35);
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.schoolOnboarding  .inputbox_main > div:nth-of-type(2) label {
+  width: 16vw;
+  margin-left: 1rem;
+}
+
+.schoolOnboarding  .inputbox_main .main__input > input {
+  margin: 0px;
+  background-color: #f3f8ff;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 12px !important;
+}
+
+.schoolOnboarding  .inputbox_main .main__input .select__drop {
+  margin: 0px;
+  background-color: #F5F5F5; 
+  font-family: Arial, Helvetica, sans-serif !important;
+  
+}
+
+.schoolOnboarding  .inputbox_main > div:nth-of-type(2) .main__input {
+  padding: .2rem .4rem !important;
+}
+
+.schoolOnboarding .left .left-submit {
+  cursor: pointer;
+  /* margin-left: 9rem; */
+  margin-top: 1rem;
+  width: 10vw;
+}
+
+.schoolOnboarding  .left .left-submit:hover {
+  opacity: 95%;
+}
+.schoolOnboarding .back-button{
+    
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  border-radius: 2rem;
+  border: none;
+  padding: .5rem ;
+  padding-left: .7rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.schoolOnboarding .back-button>div{
+  width: .5rem;
+  height: .5rem;
+  border-left: #092433 solid .15rem;
+  border-bottom:#092433 solid .15rem;
+  transform: rotateZ(45deg);
+}

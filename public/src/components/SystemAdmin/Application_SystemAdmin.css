@@ -1,0 +1,108 @@
+
+.sysAdmin .container{
+    margin: 1% 10%;
+   
+}
+.sysAdmin .top{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    height:fit-content;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sysAdmin .top{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    height:5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.sysAdmin .top .group{
+    float:right;
+    width:70%;
+    height: 15rem;
+    
+    margin-top: -14%;
+}
+.sysAdmin .top .welcome{
+    float: left;
+    width: 30%;
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sysAdmin .bottom{
+    margin-top:3rem;
+    
+}
+.sysAdmin .bottom .left{
+    float: left;
+    width: 40%;
+    padding: 0;
+}
+.sysAdmin .bottom .right{
+    float: right;
+    width: 55%;
+    
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    height: 20rem;
+}
+.sysAdmin .card{
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sysAdmin .card>img{
+    background-color: #000;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.sysAdmin .text>img{
+    width:1rem;
+    height: 1rem;
+}
+.sysAdmin .text{
+    width:100%;
+}
+.sysAdmin .navbar{
+    width:100%;
+    height:4rem;
+    display:flex;
+    background-color: #092433;
+}
+.sysAdmin .navbar>img{
+    height:40%;
+    padding: 1.5%;
+    float:left;
+    margin-left: 4rem;
+    
+}
+.sysAdmin .navbar div{
+    float: right;
+    width: 50%;
+    margin-left: 55rem;
+    display:flex;
+    padding: 1%;
+}
+.sysAdmin .navbar div>img{
+    height:100%;
+    
+}

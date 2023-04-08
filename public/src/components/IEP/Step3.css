@@ -1,0 +1,228 @@
+
+.step3 .title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .step3 .sub-title{
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+  }
+.step3 .css-1s2u09g-control, .step3 .css-1pahdxg-control {
+    border: none !important;
+    
+    border-radius: .3rem !important;
+    background:#fff !important;
+    width:auto !important;
+    max-width: 15rem !important;
+    box-shadow: none !important;
+    margin: 0rem !important;
+    margin-right: 1rem !important;
+    height: 38px !important;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:#E1E1E1 thin solid !important;
+    
+}
+.step3 .css-1hb7zxy-IndicatorsContainer {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.step3 .css-b62m3t-container {
+    /* margin-top: -0.7rem !important; */
+    border: none !important;
+    display: inline-block !important;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.step3 .css-znssdr-MenuList,.css-26l3qy-menu {
+    background: #fff !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.step3 .css-qc6sy-singleValue {
+    
+    padding-left: .5rem !important;}
+
+.step3{
+    font-size: 14px;
+    padding: .5rem;
+    
+}
+
+.step3 .teachers{
+    width:fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    align-items: center;
+   
+}
+.step3 .teachers>label{
+    margin-right: 1rem;
+}
+.step3 .checkbox{
+    margin: .2rem .4rem .4rem 0rem;
+    
+}
+.step3 .text{
+    border-radius: .2rem;
+    
+    border: #E1E1E1 solid thin;
+    font-size: 12px;
+    height: 1.2rem;
+    width: 100%;
+    padding: .2rem .5rem;
+
+}
+.step3 input::placeholder{
+    color:#A4A4A4;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.step3 .save{
+    border: none !important;
+      background-color: #F05D46;
+      color:white;
+      width: 10rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .step3 .add_more{
+    
+    border: none !important;
+      background-color: #F05D46;
+      color:white;
+      width: 10rem;
+      height: 2rem;
+      margin: 1rem auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .step3 .publish{
+    border: none !important;
+      background-color: #69B3DD;
+      color:white;
+      width: 10rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .step3 .back{
+    font-size: 12px;
+      background-color: #ffffff;
+      color:rgb(0, 0, 0);
+      width: 10rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+      border: thin black solid;
+  }
+ .step3 .select-placeholder-text {
+    color: #092433 !important;
+    padding: 0rem .1rem!important;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.step3 .text-select{
+    display: flex;
+    align-items: center;
+    
+}
+.step3 .text-select>textarea{
+    width: 80%;
+    height: 4rem;
+    margin-right: 1rem;
+    border-radius:.3rem;
+    border: #E1E1E1 solid thin;
+    resize: none;
+}
+.step3 .title-select{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+.step3 .title-select>p{
+    margin-right: 1rem;
+}
+.step3 .dummmy-keyoutcome {
+    border-radius: .5rem;
+    background-color: #F1FAFF;
+    padding: .5rem 1rem;
+    border:#E1E1E1 thin solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px !important;
+    margin: 1rem 0rem;
+    display:flex;
+    justify-content: space-between;
+}
+.step3 .dummmy-keyoutcome>.arrow{
+    width:.5rem;
+    height: .5rem;
+    border-right: black 3px solid;
+    border-bottom: black 3px solid;
+    transform: rotateZ(45deg);
+    margin-top: .8rem;
+}
+.step3 .date{
+    border-radius: 0.2rem;
+    border: #E1E1E1 solid thin;
+    padding: 0.2rem 0.4rem;
+    height: 1.4rem;
+    margin-right: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+.step3 .text{
+    border-radius: .2rem;
+    
+    border: #E1E1E1 solid thin;
+    font-size: 12px;
+    height: 1.2rem;
+    width: 15rem;
+    padding: .2rem .5rem;
+
+}
+.step3 .tabs{
+    position:relative;
+    display: flex;
+    align-items: center;
+    
+    z-index: 1;
+    width: 100%;
+  }
+  .step3 .tabs>p{
+    border: #FFE4AF solid .1rem;
+    text-align: center;
+    padding:1.3% 4.5%;
+    
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5rem;
+    margin: 1%;
+    cursor: pointer;
+  }
+  .step3 .version1{
+    color:rgb(240, 93, 70);
+}
+.step3 .version2{
+    color:rgb(105, 179, 221);
+}

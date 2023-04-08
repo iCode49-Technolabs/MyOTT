@@ -1,0 +1,158 @@
+.studentprofile__container {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 100px;
+    min-height: calc(100vh - 75px - 63px);
+}
+
+.studentprofile__box_profile {
+    margin-top: 70px;
+}
+
+.studentprofile__box_profile > a {
+    all: unset;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1F1C47;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.studentprofile__box_main {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.studentprofile__box_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #FFE4AF;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 0px 25px;
+}
+
+.studentprofile__box_header > h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #092433;
+}
+
+.studentprofile__header_buttons > button {
+    all: unset;
+    background-color: transparent;
+    color: #092433;
+    border: 2px solid #092433;
+    border-radius: 48px;
+    height: 41px;
+    padding: 0px 24px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.studentprofile__header_buttons > button.active {
+    color: white;
+    background-color: #092433;
+}
+
+.studentprofile__box_main .trackbox__container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 25px;
+}
+
+.studentprofile__box_main .trackbox__container span {
+    all: unset;
+    font-size: 25px;
+    font-weight: bold;
+    color: #092433;
+}
+
+.studentprofile__box_main .trackbox__container .header > div {
+    display: flex;
+    gap: 10px;
+}
+
+.studentprofile__box_main .trackbox__container .header > div > div {
+    height: 30px;
+    border: 1px solid #092433;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.studentprofile__box_main .trackbox__container .header > div span {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.studentprofile__box_main .trackbox__container .header > div span.faded {
+    color: #9E9E9E;
+}
+
+.studentprofile__box_main .trackbox__container .header .date {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.studentprofile__box_main .trackbox__container .header .search_icon {
+    border: none;
+    background-color: #69B3DD;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studentprofile__box_main .trackbox__container .trackbox_chart {
+    width: 885px;
+    padding: 50px 0px 20px 50px;
+}
+
+.studentprofile__box_main .trackbox__container .trackbox_ideas {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 50px;
+    margin-bottom: 50vh;
+    padding: 0px 25px 40px 80px;
+    color: #092433;
+}
+
+.studentprofile__box_main .trackbox__container .trackbox_ideas h2 {
+    all: unset;
+    font-size: 14px;
+    color: white;
+    background-color: #717C36;
+    border-radius: 7px;
+    padding: 5px 9px;
+}
+
+.studentprofile__box_main .trackbox__container .trackbox_ideas > div:first-of-type h2 {
+    background-color: #69B3DD;
+}
+
+.studentprofile__box_main .trackbox__container .trackbox_ideas span {
+    all: unset;
+    font-size: 14px;
+    margin-left: 15px;
+}
+

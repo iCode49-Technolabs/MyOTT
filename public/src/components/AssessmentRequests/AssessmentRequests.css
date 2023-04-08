@@ -1,0 +1,358 @@
+
+.assessment-requests .container {
+  margin: 1% 10%;
+}
+.assessment-requests .top {
+  background-color: #fcc456;
+  color: #092433;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  padding: 1em;
+  border-radius: 1rem;
+}
+
+.assessment-requests .top > p {
+  margin: 0px;
+}
+
+.assessment-requests .top .flag {
+  float: left;
+  width: 3%;
+  height: 80%;
+  margin-right: 1rem;
+}
+
+.assessment-requests .bottom {
+  margin-top: 3rem;
+}
+
+.assessment-requests .text > img {
+  width: 1rem;
+  height: 1rem;
+}
+.assessment-requests .text {
+  width: 100%;
+}
+.assessment-requests .navbar {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  background-color: #092433;
+}
+.assessment-requests .navbar > img {
+  height: 40%;
+  padding: 1.5%;
+  float: left;
+  margin-left: 4rem;
+}
+.assessment-requests .navbar div {
+  float: right;
+  width: 50%;
+  margin-left: 55rem;
+  display: flex;
+  padding: 1%;
+}
+.assessment-requests .navbar div > img {
+  height: 100%;
+}
+.assessment-requests .css-319lph-ValueContainer {
+  background-color: #fff;
+
+  border: none;
+  font-size: 14px;
+  border-radius: 0.3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 0rem !important;
+  color:#092433 !important;
+}
+.css-9gakcf-option {
+  background-color: #eeeeee !important;
+   color: hsl(0, 0%, 0%) !important;
+}
+.css-1n7v3ny-option{
+  background-color: #fcfcfc !important;
+}
+.select-placeholder-text {
+  color: #092433 !important;
+  padding: 0rem 0.5rem !important;
+}
+.assessment-requests input {
+  padding: 0rem 0.5rem !important;
+}
+.assessment-requests .css-1s2u09g-control,
+.assessment-requests .css-1pahdxg-control {
+  border: none !important;
+  border-radius: 0.3rem !important;
+  background: #fff !important;
+  width: 10rem !important;
+  max-width: 10rem !important;
+  box-shadow: none !important;
+  margin: 0.5rem !important;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border: #e1e1e1 thin solid !important;
+}
+.assessment-requests .css-1hb7zxy-IndicatorsContainer {
+  background-color: #fff !important;
+  border: none !important;
+  border-radius: 0.3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.assessment-requests .css-b62m3t-container {
+  /* margin-top: -0.7rem !important; */
+  border: none !important;
+  display: inline-block !important;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 58px !important;
+}
+.assessment-requests .css-znssdr-MenuList,
+.css-26l3qy-menu {
+  background: #fff !important;
+  font-size: 12px !important;
+  border: none !important;
+  border-radius: 0.3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.assessment-requests .css-qc6sy-singleValue {
+  padding-left: 0.5rem !important;
+}
+
+.assessment-requests .report-submit {
+  border: none !important;
+  background-color: #f05d46;
+  color: white;
+  width: 9rem;
+  height: 2rem;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  margin-top: 0.9rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+}
+.assessment-requests .quick-report p {
+  margin: 1rem;
+  color: #092433;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.assessment-requests .initials {
+  text-align: center;
+
+  border-radius: 100%;
+  background-color: #092433;
+  color: #fff;
+
+  font-size: 25px;
+  line-height: 75px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.assessment-requests .top-initial {
+  padding: 6%;
+  float: left;
+  margin-left: -4rem;
+  width: 16px;
+  height: 16px;
+  margin-top: -2.5%;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border: #fff 2px solid;
+  color: #092433;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.assessment-requests .pagination-bar {
+  display: flex;
+  justify-content: center;
+}
+.assessment-requests .student-table {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.assessment-requests .student-table table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+.assessment-requests .student-table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+}
+
+.assessment-requests table thead tr {
+  height: 60px;
+  background: #ffffff;
+}
+.assessment-requests th {
+  border-radius: 1rem;
+  font-weight: 550 !important;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: #e1e1e1 0.1rem solid;
+}
+.assessment-requests .table100-head th {
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+.assessment-requests tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.assessment-requests tbody tr {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #092433;
+  line-height: 1.2;
+  font-weight: unset;
+}
+.assessment-requests table tbody tr {
+  height: 50px;
+}
+.assessment-requests tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+/* .assessment-requests tbody tr:nth-child(even) {
+  background-color: #f3fbff;
+} */
+
+.assessment-requests .card {
+  width: 3.2rem;
+  height: 3rem;
+  display: flex;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+}
+.assessment-requests .card > img {
+  width: 0.7rem;
+  height: 0.7rem;
+  padding: 0.7rem;
+  margin-top: -0.2rem;
+}
+.assessment-requests .dashboard-right {
+  display: flex;
+  float: right;
+  margin-right: -2rem;
+}
+.assessment-requests .student-search {
+  background-color: #fff;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.assessment-requests .student-search p {
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-weight: 600;
+}
+.assessment-requests .student-table ul {
+  display: block;
+  justify-content: center;
+
+  list-style: none;
+  /* text-decoration: underline; */
+}
+.assessment-requests .student-table ul .list-pic {
+  margin-right: 0.5rem;
+  position: relative;
+  bottom:-3px;
+}
+.assessment-requests .student-table li {
+  margin-bottom: 0.2rem;
+  /* margin-right: -3rem; */
+  text-align: left;
+  cursor: pointer;
+}
+.assessment-requests .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #092433;
+  color: white;
+  height: 63px;
+  cursor: pointer;
+}
+
+.assessment-requests .footer i {
+  margin: 0.5rem;
+  
+}
+.assessment-requests .search-input {
+  width: 9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 38px;
+  border-radius: 0.2rem;
+  border: #e1e1e1 thin solid !important;
+  font-size: 14px;
+  margin: 1rem;
+}
+.assessment-requests .search-input::placeholder {
+  color: #092433 !important;
+}
+
+.assessment-requests .column2,.assessment-requests .column1,.assessment-requests .column9,.assessment-requests .column10,.assessment-requests .column3,.assessment-requests .column4,.assessment-requests .column5,.assessment-requests .column6,.assessment-requests .column7,.assessment-requests .column8 {
+  max-width: 10rem;
+  text-align: center;
+  padding-left: 1rem;
+}
+.assessment-requests .column8{
+  max-width: 15rem !important;
+  width: auto !important;
+}
+.assessment-requests .download-right{
+  float:right;
+}
+.assessment-requests .download-button{
+  
+  border: none !important;
+  background-color: var(--button);
+  color:white;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5rem;
+  margin: .9rem;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.assessment-requests .upload_file span{
+  
+  font-size:20px;
+  text-decoration:dashed !important;
+  color: #00ff08;
+  font-weight: 500;
+
+}
+.assessment-requests .upload_file{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}

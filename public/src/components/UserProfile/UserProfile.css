@@ -1,0 +1,100 @@
+.UserProfile{
+        padding: 70px 151px;
+        font-size: 14px;  
+}
+
+.UserProfile .top{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    height:5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.UserProfile .top .group{
+    float:right;
+    width:70%;
+    height: 15rem;
+    margin-top: -11%;
+}
+.UserProfile .top .welcome{
+    float: left;
+    width: 30%;
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------------------------------------------------------- */
+
+.UserProfile .profile{
+    box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 50px;
+    margin: 50px 0;
+    background-color: #FFFFFF; 
+
+}
+
+.UserProfile .profile .www{
+    display: flex;
+}
+.UserProfile .profile  .www .teacherImg img{
+    width: 150px;
+}
+
+.UserProfile .profile  .www .bannerText b{
+    font-weight: 700;
+    font-size: 18px;  
+
+    color: #F05D46;
+}
+.UserProfile .profile  .www .bannerText p{
+    padding-top: 5px;
+    line-height: 32px;
+}
+.UserProfile .profile  button{
+    font-weight: 700;
+    color: #FFFFFF; 
+    border: #F05D46;
+    margin:20px;
+    width: 150px;
+    height:30px;
+    background: #F05D46;
+    border-radius: 100px;
+    }
+.UserProfile .profile  .details .information p{
+font-weight: 700;
+}
+
+/* ------------------------------------------------------- */
+.UserProfile .NextStepIEP{
+    margin-top:  150px;
+    padding: 0 108px 0 48px;
+    background: rgba(211, 171, 136, 0.6);
+    box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    height: 177px;
+}
+
+.UserProfile .NextStepIEP>img{
+    width: 340px;
+    height: 238px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 61px;
+}
+.UserProfile .NextStepIEP p{
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+
+.UserProfile .NextStepIEP .lorem{
+    padding: 38px 149px 0 0;
+}

@@ -1,0 +1,107 @@
+._5gkw {
+    width: 100vw;
+    color: #092433;
+    background-color: white;
+    display: flex;
+}
+
+/* Logo div */
+._5gkw ._0koz {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+._5gkw ._0koz > img {
+    width: 124px;
+}
+
+._5gkw ._0koz > span {
+    font-style: italic;
+    font-size: 12px;
+}
+
+/* Side decorative image */
+._5gkw ._9wfz {
+    position: fixed;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+}
+
+/* Main container */
+._5gkw .container {
+    position: fixed;
+    padding-top: 150px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+._5gkw .container ._4lgj > table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50vw;
+    z-index: 1;
+    border-style: hidden;
+    border-collapse: collapse;
+}
+
+._5gkw .container ._4lgj > table thead {
+    height: 60px;
+}
+
+._5gkw .container ._4lgj > table tbody {
+    font-size: 12px;
+}
+
+._5gkw .container ._4lgj > table tbody td {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 60px;
+}
+
+._5gkw .container ._4lgj > table tbody td ._0mlx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+._5gkw .container ._4lgj > table tbody td ._1phf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+._5gkw .container ._4lgj > table tbody td ._1phf > svg {
+    width: 25px;
+    fill: rgb(199, 121, 121);
+    cursor: pointer;
+}
+
+._4lgj > table tbody tr.dark {
+    background-color: #F3F8FF;
+}
+
+._4lgj > table th {
+    background-color: #092433;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+._4lgj > table thead tr {
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+._4lgj > table th:first-of-type {
+    border-top-left-radius: 20px;
+}
+
+._4lgj > table th:last-of-type {
+    border-top-right-radius: 20px;
+}

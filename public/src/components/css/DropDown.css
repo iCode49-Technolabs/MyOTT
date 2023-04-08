@@ -1,0 +1,38 @@
+._3foc {
+    position: relative;
+    width: 176px;
+    height: 34px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: white;
+    border: 1px solid #E1E1E1;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+._3foc .dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 176px;
+    height: 140px;
+    border: 1px solid #C7BCA1;
+    background-color: white;
+    border-radius: 8px;
+    z-index: 2;
+    overflow: scroll;
+}
+
+._3foc .dropdown > div {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px 8px 10px;
+}
+
+._3foc .dropdown > div.dark {
+    background-color: #f9f4e6;
+}

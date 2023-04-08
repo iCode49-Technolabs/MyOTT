@@ -1,0 +1,324 @@
+:root {
+    --input: #F3F8FF;
+    --white: #ffffff;
+    --button: #F05D46;
+  }
+.login .content{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    overflow: hidden;
+    
+}
+.login .left{
+    /* width: 30%; 
+    float:left; */
+    padding-top: 2rem;
+    padding-left: 2rem;
+    
+}
+.login .left img{
+    width: 6rem;
+}
+.login .tagline{
+    font-style: italic;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .middle{
+    margin-top: 5rem;
+  line-height: 2rem;
+  font-weight: 700;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .line{
+    margin-top: -1rem;
+    float: left;
+    width: 2rem;
+    height: 0.3rem;
+    border: none;
+    background-color:#69B3DD;
+    border-radius: 50em;
+}
+.login .bottom{
+    margin-top: 5rem;
+}
+.login .inputbox{
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+.login input{
+    border: none;
+    background-color:var(--input);
+    margin-bottom:.5rem ;
+    padding: .5rem !important;
+    border-radius: .3rem;
+    font-size: 12px;
+    width:10rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 18px;
+}
+.login .react-tel-input{
+    width:11rem !important;
+}
+.login .react-tel-input .form-control {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px !important;
+    
+    border: none;
+    background-color:var(--input);
+    border-radius: .3rem;
+    line-height:normal;
+    min-height: auto !important;
+    height: 38px !important;
+    width:11rem !important;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .css-319lph-ValueContainer {
+    background-color:  var(--input);
+    border:none;
+    font-size: 12px;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2px 0px !important;
+}
+.login .css-1s2u09g-control,.login .css-1pahdxg-control {
+    border: none !important;
+    border-radius: .3rem !important;
+    background:var(--input) !important;
+    width:11rem !important;
+    box-shadow: none !important;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .css-1hb7zxy-IndicatorsContainer {
+    background-color: var(--input) !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .css-b62m3t-container {
+    /* margin-top: -0.7rem !important; */
+    border: none !important;
+    display: inline-block !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .css-znssdr-MenuList,.css-26l3qy-menu {
+    background: var(--input) !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.login .css-6j8wv5-Input {
+    margin: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+.login .react-tel-input{
+    display: inline-block;
+    
+    
+}
+.login .css-qc6sy-singleValue {
+    padding-left: .5rem;}
+.login .react-tel-input .flag-dropdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    background-color:var(--input);
+    border: none;
+    border-radius: .3rem;
+    
+}
+.login .react-tel-input .country-list {
+    outline: none;
+    font-size: 12px;
+    z-index: 1;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 10px 0 10px -1px;
+    box-shadow: 1px 2px 10px rgb(0 0 0 / 35%);
+    background-color: var(--input);
+    width:10rem;
+    max-height: 200px;
+    overflow-y: scroll;
+    border-radius: .3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login .left-submit{
+    border: none ;
+    background-color: var(--button);
+    color:white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.login .right{
+    /* width: 50%;  */
+    display: inline-block;
+
+    height:100%;
+}
+.login .right img{
+    
+    
+    height: 100%;
+    
+}
+
+@media only screen and (max-width:720px){
+    
+    .login .left {
+        width: 100vw; 
+        display:block;
+        justify-content: center;
+        
+    }
+    .login .right{
+        display: none;
+    }
+  }
+@media only screen and (max-height:700px)   {
+    .login .content{
+        height: 100%;
+    }
+    .login .middle{
+        margin-top: 2rem;
+        line-height: 1.5rem;
+        font-size: 18px;
+    }
+    .login .bottom{
+        margin-top: 2rem;
+    }
+    .login .right img{
+        height:auto;
+    }
+}
+@media only screen and (max-height:1368px) and (max-width:912px)  {
+    .login .content{
+        height: 100%;
+    }
+    .login .middle{
+        margin-top: 2rem;
+        line-height: 1.5rem;
+        font-size: 18px;
+    }
+    .login .bottom{
+        margin-top: 2rem;
+    }
+    .login .right img{
+        height:auto;
+    }
+}
+
+
+.login label {
+  width: 10%;
+  /* Positions the label text beside the input */
+  text-align: left;
+}
+
+.login label+input,label+.react-tel-input,label+.css-b62m3t-container {
+  width: 30%;
+  /* Large margin-right to force the next element to the new-line
+           and margin-left to create a gutter between the label and input */
+  /* margin: 0 2% .5rem 4%; */
+}
+.required {
+    color: red;
+  }
+  .login   .inputbox_main {
+    display: flex;
+    /* width: 70vw; */
+  }
+  
+  .login   .inputbox_main > div {
+    flex: 4;
+    padding-top: 30px;
+  }
+  
+  .login   .inputbox_main > div:first-of-type {
+    flex: 2!important;
+  }
+  
+  .login  .inputbox_main .main__input {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 5px 0px;
+    padding: .2rem 0px !important;
+  }
+  
+  .login  .inputbox_main .main__input > label {
+    width: 8vw !important;
+    font-weight: 500 !important;
+    font-size: 12px;
+    color: rgb(37, 35, 35);
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+  
+  .login  .inputbox_main > div:nth-of-type(2) label {
+    width: 16vw;
+    margin-left: 1rem;
+  }
+  
+  .login  .inputbox_main .main__input > input {
+    margin: 0px;
+    background-color: #f3f8ff;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 12px !important;
+  }
+  
+  .login  .inputbox_main .main__input .select__drop {
+    margin: 0px;
+    background-color: #F5F5F5; 
+    font-family: Arial, Helvetica, sans-serif !important;
+    
+  }
+  
+  .login  .inputbox_main > div:nth-of-type(2) .main__input {
+    padding: .2rem .4rem !important;
+  }
+  
+  .login .left .left-submit {
+    cursor: pointer;
+    /* margin-left: 9rem; */
+    margin-top: 1rem;
+    
+  }
+  
+  .login  .left .left-submit:hover {
+    background-color:#ef452b;
+    
+    border:solid thin #F05D46 ;
+  }
+  .login .remember_me{
+    font-size: 12px;
+    color: #69B3DD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+  }
+  .login .remember_me>input{
+    margin-top: .4rem;
+    width: auto!important;
+  }
+  

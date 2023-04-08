@@ -1,0 +1,144 @@
+.Student_Profile{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Student_Profile .profile{
+    padding: 50px;
+}
+
+.Student_Profile .profile .www{
+    display: flex;
+}
+.Student_Profile .profile  .www .teacherImg img{
+    width: 150px;
+}
+
+.Student_Profile .profile  .www .bannerText b{
+    font-weight: 700;
+    font-size: 18px;  
+
+    color: #F05D46;
+}
+.Student_Profile .profile  .www .bannerText p{
+    padding-top: 5px;
+    line-height: 32px;
+}
+.Student_Profile .profile  button{
+    font-weight: 700;
+    color: #FFFFFF; 
+    border: #F05D46;
+    margin:20px;
+    width: 150px;
+    height:30px;
+    background: #F05D46;
+    border-radius: 100px;
+    }
+.Student_Profile .profile  .details .information p{
+    font-size: 16px;
+font-weight: 700;
+
+}
+
+/* ------------------------------------------------------- */
+.Student_Profile .NextStepIEP{
+    margin-top:  150px;
+    padding: 0 108px 0 48px;
+    background: rgba(211, 171, 136, 0.6);
+    box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    height: 177px;
+}
+
+.Student_Profile .NextStepIEP>img{
+    width: 340px;
+    height: 238px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 61px;
+}
+.Student_Profile .NextStepIEP p{
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.Student_Profile .NextStepIEP .lorem{
+    padding: 38px 149px 0 0;
+}
+
+/* //-------------------------------------------- */
+
+
+.Student_Profile .student-comment__container {
+    margin: 5% 10%;
+    min-height: calc(100vh - 75px - 63px);
+}
+
+.Student_Profile .student-comment__box_profile {
+    margin-top: 70px;
+}
+
+.Student_Profile .student-comment__box_profile > a {
+    all: unset;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #1F1C47;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Student_Profile .student-comment__box_main {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    
+}
+
+.Student_Profile .student-comment__box_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #FFE4AF;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 0px 25px;
+    
+}
+
+.Student_Profile .student-comment__box_header > h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #092433;
+    
+}
+.Student_Profile .student-comment__header_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.Student_Profile .student-comment__header_buttons > button {
+    all: unset;
+    background-color: transparent;
+    color: #092433;
+    border: 2px solid #092433;
+    border-radius: 48px;
+    height: 41px;
+    padding: 0px 24px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Student_Profile .student-comment__header_buttons > button.active {
+    color: white;
+    background-color: #092433;
+}

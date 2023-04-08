@@ -1,0 +1,251 @@
+
+.assignation .container {
+    margin: 1% 10%;
+  }
+  .assignation .top {
+    background-color: #fcc456;
+    color: #092433;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    padding: 1em;
+    border-radius: 1rem;
+  }
+  
+  .assignation .top > p {
+    margin: 0px;
+  }
+  
+  .assignation .top .flag {
+    float: left;
+    width: 3%;
+    height: 80%;
+    margin-right: 1rem;
+  }
+  
+  .assignation .bottom {
+    margin-top: 3rem;
+  }
+ 
+
+  .assignation .css-319lph-ValueContainer {
+    background-color: #fff;
+  
+    border: none;
+    font-size: 14px;
+    border-radius: 0.3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0rem !important;
+    color:#092433 !important;
+  }
+  .css-9gakcf-option {
+    background-color: #eeeeee !important;
+     color: hsl(0, 0%, 0%) !important;
+  }
+  .css-1n7v3ny-option{
+    background-color: #fcfcfc !important;
+  }
+  .select-placeholder-text {
+    color: #092433 !important;
+    padding: 0rem 0.5rem !important;
+  }
+  .assignation input {
+    padding: 0rem 0.5rem !important;
+  }
+  .assignation .css-1s2u09g-control,
+  .assignation .css-1pahdxg-control {
+    border: none !important;
+    border-radius: 0.3rem !important;
+    background: #fff !important;
+    width: 10rem !important;
+    max-width: 10rem !important;
+    box-shadow: none !important;
+    margin: 0.5rem !important;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #e1e1e1 thin solid !important;
+  }
+  .assignation .css-1hb7zxy-IndicatorsContainer {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: 0.3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .assignation .css-b62m3t-container {
+    /* margin-top: -0.7rem !important; */
+    border: none !important;
+    display: inline-block !important;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 58px !important;
+  }
+  .assignation .css-znssdr-MenuList,
+  .css-26l3qy-menu {
+    background: #fff !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: 0.3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .assignation .css-qc6sy-singleValue {
+    padding-left: 0.5rem !important;
+  }
+  
+
+  
+  .assignation .pagination-bar {
+    display: flex;
+    justify-content: center;
+  }
+  .assignation .student-cards {
+    background: #fff;
+    border-radius: 1rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .assignation .card {
+    width: 3.2rem;
+    height: 3rem;
+    display: flex;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+  }
+  .assignation .card > img {
+    width: 0.7rem;
+    height: 0.7rem;
+    padding: 0.7rem;
+    margin-top: -0.2rem;
+  }
+  .assignation .dashboard-right {
+    display: flex;
+    float: right;
+    margin-right: -2rem;
+  }
+  .assignation .student-search {
+    background-color: #fff;
+    display: flex; 
+   justify-content: space-between;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .assignation .student-search p {
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-weight: 600;
+  }
+  
+  .assignation .search-input {
+    width: 9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 38px;
+    border-radius: 0.2rem;
+    border: #e1e1e1 thin solid !important;
+    font-size: 14px;
+    margin: 1rem;
+  }
+  .assignation .search-input::placeholder {
+    color: #092433 !important;
+  }
+  
+  
+  .assignation .assign-right{
+    width:max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .assignation .assign-button{
+    
+    border: none !important;
+    background-color: var(--button);
+    color:white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5rem;
+    margin: .9rem;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .assignation .profile-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.assignation .profile-card{
+    width: 15%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .1rem;
+}
+.assignation .profile-card .profile-details{
+    background-color: #fff;
+    padding: .5rem;
+    
+}
+
+.assignation .profile-details input{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: 700;
+    width: 40%;
+font-size: 9px;
+line-height: 9px;
+color: #000;
+}
+.assignation .profile-details label{
+    color: #092433;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 9px;
+    text-align: left;
+}
+.assignation .profile-details .student-name{
+    
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+}
+.assignation .profile-card .profile-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: #61C4FC;
+    margin: 0rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+.assignation .selected .profile-pic{
+  background-color: #fcc456;
+    
+}
+.assignation .selected {
+  box-shadow: rgba(0, 0, 0, 0.164) 0px 8px 8px;
+    margin-top: -.5rem;
+}
+.assignation .select-all{
+    
+  border: none !important;
+  background-color: var(--button);
+  color:white;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 5rem;
+  
+  margin-right: 2rem;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.164) 0px 8px 8px;
+}

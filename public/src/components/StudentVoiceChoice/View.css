@@ -1,0 +1,160 @@
+
+.view .title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+.view{
+    font-size: 14px;
+    padding: .5rem;
+    
+}
+
+.view .teachers{
+    width:max-content;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.view .teachers>label{
+  margin-right: 2rem;
+}
+.view .checkbox{
+    margin: .2rem .4rem .4rem 0rem;
+    
+}
+.view .text{
+    border-radius: .2rem;
+    
+    border: #E1E1E1 solid thin;
+    font-size: 12px;
+    height: 1.2rem;
+    width: 80%;
+    padding: .2rem .5rem;
+    
+
+}
+.view input{
+  background-color: white;
+}
+.view input:disabled{
+  background-color: rgb(252, 252, 252);
+}
+.view input::placeholder{
+    color:#A4A4A4;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.view .save-continue{
+    border: none !important;
+      background-color: #F05D46;
+      color:white;
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .view .publish{
+    border: none !important;
+      background-color: #69B3DD;
+      color:white;
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+     font-size: 12px;
+  }
+  .view .back{
+    font-size: 12px;
+      background-color: #ffffff;
+      color:rgb(0, 0, 0);
+      width: 6.5rem;
+      height: 2rem;
+      margin: 2rem .5rem;
+      border-radius: 5rem;
+      
+  }
+ .view .review{
+    display: flex;
+    align-items: center;
+   
+    height: 2rem;
+ }
+ .view .soft_skill{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+ margin-bottom: 1rem;
+  height: 2rem;
+}
+ .view .review>p{
+  width: 18.6rem;
+    max-width: 18.6rem;
+ }
+ .view .buttons{
+    display: flex;
+    justify-content: space-between;
+ }
+ .view .question{
+    display: flex;
+    align-items: center;
+ }
+ .view .question>p{
+    width: 20rem;
+ }
+ .view .soft_skill .range{
+  border-radius: .2rem;
+   float: left;
+  border: #E1E1E1 solid thin;
+  font-size: 12px;
+  height: 1.2rem;
+  margin-left: 3.6rem;
+  padding: .2rem .5rem;
+  background-color:#69B3DD;
+  
+ }
+ 
+
+
+ .view .css-319lph-ValueContainer {
+  border: none;
+  font-size: 12px;
+  border-radius: .3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2px 0px !important;
+}
+.view .css-1s2u09g-control,.view .css-1pahdxg-control {
+  border:#f4f4f4 thin solid !important;
+  border-radius: .3rem !important;
+  width:11rem !important;
+  box-shadow: none !important;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view .css-1hb7zxy-IndicatorsContainer {
+  border: none !important;
+  border-radius: .3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view .css-b62m3t-container {
+  /* margin-top: -0.7rem !important; */
+  border: none !important;
+  display: inline-block !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view .css-znssdr-MenuList,.css-26l3qy-menu {
+  
+  font-size: 12px !important;
+  border: none !important;
+  border-radius: .3rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.view .css-6j8wv5-Input {
+  margin: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}

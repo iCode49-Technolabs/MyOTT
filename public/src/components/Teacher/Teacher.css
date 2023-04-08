@@ -1,0 +1,451 @@
+
+.teacher .container{
+    margin: 1% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teacher .top{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    height:5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.teacher .top .group{
+    float:right;
+    width:70%;
+    height: 15rem;
+    
+    margin-top: -14%;
+}
+.teacher .top .welcome{
+    float: left;
+    width: 30%;
+    margin-left: 1.5rem;
+    margin-top: -1rem;
+    
+}
+
+
+
+
+
+
+
+.teacher .bottom{
+    margin-top:3rem;
+    
+}
+
+
+
+
+
+.teacher .bottom .left{
+    float: left;
+    width: 65%;
+    padding: .2rem 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.teacher .text-select-flex{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teacher .text-select-flex>input{
+    width: 10rem;
+    height: 1.5rem;
+    border: #E1E1E1 solid thin;
+    font-size: 14px;
+    border-radius: .2rem;
+}
+.teacher .title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.teacher .day{
+    display: flex;
+    align-items: center;
+    
+    font-size: 14px;
+    color: #84C1E3;
+}
+.teacher .sub-title{
+    color: #092433;
+    font-size: 20px;
+    font-weight: 600;
+}
+.teacher p>span{
+    color:#F05D46;
+}
+.teacher .line{
+    width: 100%;
+    background-color: #E1E1E1;
+    border: none;
+
+    height: 1.2px;
+}
+.teacher .sub-sub-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.teacher textarea{
+    height: 3rem;
+    width: 97%;
+    border: #E1E1E1 solid thin;
+    resize: none;
+    border-radius: .2rem;
+    padding: .5rem;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teacher textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teacher .save{
+    background-color: #F05D46;
+    border:none;
+    border-radius: 5rem;
+    width: 5rem;
+    color: white;
+    padding: .5rem;
+    font-size: 12px;
+    float: right;
+    /* margin: 1rem 0rem; */
+    margin-bottom: 1rem;
+}
+.teacher .upload{
+    background-color: #61C4FC;
+    border:none;
+    border-radius: .2rem;
+    width: 5rem;
+    color: white;
+    padding: .5rem;
+    font-size: 12px;
+    float: left;
+    /* margin: 1rem 0rem; */
+}
+.teacher .lesson_unit_plan{
+    background-color: #61C4FC;
+    border:none;
+    border-radius: .2rem;
+    width: fit-content;
+    color: white;
+    padding: .5rem;
+    font-size: 12px;
+    height: 2rem;
+}
+.teacher .tabs{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.teacher .tabs::-webkit-scrollbar {
+    
+    height: .4rem;
+  }
+   
+  .teacher .tabs::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    
+  }
+   
+  .teacher .tabs::-webkit-scrollbar-thumb {
+    background-color: #092433;
+    border-radius: 1rem;
+    
+  }
+.teacher .tab{
+    background-color: #DBECF6;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    min-width: fit-content;
+    margin-bottom: -.1rem;
+    text-align: center;
+}
+.teacher .tabs>a{
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.teacher .tab-container{
+    background-color: #FFF4DE;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-top-left-radius: 0rem;
+    margin-bottom: 2rem;
+}
+.teacher .tab-content{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+.teacher .para{
+    color: #8A8A8A;
+    font-size: 14px;
+}
+.teacher .record-rate{
+    display: flex;
+    justify-content: space-between;
+}
+.teacher .record-rate .record{
+    width: 48%;
+}
+.teacher .record-rate .record>textarea{
+    height: 5rem;
+    margin-bottom: .3rem;
+}
+.teacher .record-rate .rate{
+    width: 48%;
+}
+
+
+.teacher .bottom .right{
+    float: right;
+    width: 30%;
+    height: 30rem;
+   margin-bottom:2rem;
+    
+}
+
+.teacher .card{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    height: min-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.teacher .card>img{
+    background-color: #000;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1.5rem;
+    margin: .5rem;
+    border-radius: 1rem;
+}
+.teacher .text>img{
+    width:.6rem;
+    height: .6rem;
+}
+.teacher .text{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher .css-319lph-ValueContainer {
+    background-color:  #fff;
+    
+    border:none;
+    font-size: 14px;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2x 0px !important;
+    /* color:#092433 !important; */
+    
+}
+.teacher .select-placeholder-text {
+    color: #092433 !important;
+    padding: 0rem .5rem!important;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.teacher input{
+    padding: 0rem .5rem!important;
+}
+.teacher .css-1s2u09g-control,.teacher  .css-1pahdxg-control {
+    
+    border: none !important;
+    border-radius: .3rem !important;
+    background:#fff !important;
+    width: 15vw!important;
+    max-width: 15rem !important;
+    box-shadow: none !important;
+    height: auto;
+    max-height: auto;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border:#E1E1E1 thin solid !important;
+    
+}
+
+.teacher .css-1hb7zxy-IndicatorsContainer {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.teacher .css-b62m3t-container {
+    /* margin-top: -0.7rem !important; */
+    border: none !important;
+    display: inline-block !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.teacher .css-znssdr-MenuList,.css-26l3qy-menu {
+    background: #fff !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+/* .teacher .css-1pndypt-Input{
+    margin: 0px!important;
+} */
+
+.teacher .css-qc6sy-singleValue {
+    
+    padding-left: .5rem !important;}
+
+.teacher .profile-container{
+    
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+    overflow: auto;
+  white-space: nowrap;
+}
+.teacher .profile-container::-webkit-scrollbar {
+    
+    height: .4rem;
+  }
+   
+  .teacher .profile-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    
+  }
+   
+  .teacher .profile-container::-webkit-scrollbar-thumb {
+    background-color: #092433;
+    border-radius: 1rem;
+    
+  }
+.teacher .profile-card{
+    width: 10rem;
+    height: fit-content;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .1rem;
+}
+.teacher .profile-card .profile-details{
+    background-color: #fff;
+    padding: .5rem;
+    
+}
+
+.teacher .profile-details input{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-weight: 400;
+    width: max-content;
+    font-size: 9px;
+    line-height: 9px;
+    color: #8A8A8A;
+    margin-left: .2rem;
+}
+.teacher .profile-details label{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teacher .profile-details label p{
+    color: #092433;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 9px;
+    text-align: left;
+    width: 1.8rem;
+}
+.teacher .profile-details .student-name{
+    
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+}
+.teacher .profile-card .profile-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background-color: rgb(105, 179, 221);
+    background-color:rgb(97, 196, 252);
+    background-color:rgb(128, 162, 120);
+    margin: 0rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.teacher .inputData input{
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+    margin-left: 30px;
+    padding-left: 30px;
+    width: 20vw;
+    height: 36px;
+    }
+    .teacher .chechInput input{
+      margin-left: 50px;
+      margin-top: 10px;
+    
+    }
+    .teacher .chechInput label{
+      margin-left: 10px;
+      font-size: 12px;
+    }
+    .teacher .inputData p{
+      font-size: 14px;
+    }
+    .teacher input::placeholder{
+      margin-left: 50px;
+      color: #A4A4A4;
+    }
+
+
+    .teacher .dummmy-keyoutcome {
+        border-radius: .5rem;
+        background-color: #F1FAFF;
+        padding: .5rem 1rem;
+        border:#E1E1E1 thin solid;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px !important;
+        margin: 1rem 0rem;
+        display:flex;
+        justify-content: space-between;
+    }
+    .teacher .dummmy-keyoutcome>p{
+        font-size: 14px !important;
+    }
+    .teacher .dummmy-keyoutcome>.arrow{
+        width:.5rem;
+        height: .5rem;
+        border-right: black 3px solid;
+        border-bottom: black 3px solid;
+        transform: rotateZ(45deg);
+        margin-top: .8rem;
+    }
+
